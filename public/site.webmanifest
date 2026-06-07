@@ -1,0 +1,25 @@
+{
+  "name": "OmarXGaming",
+  "short_name": "OmarXGaming",
+  "description": "الموقع الرسمي لصانع محتوى الألعاب OmarXGaming.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06020f",
+  "theme_color": "#06020f",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/omarxgaming-logo-256.jpg",
+      "sizes": "256x256",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/omarxgaming-logo-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

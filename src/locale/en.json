@@ -1,0 +1,77 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "videos": "Videos",
+    "gear": "Gaming Gear",
+    "faqs": "FAQs",
+    "contact": "Contact Me",
+    "mute_sound": "Mute Sounds",
+    "unmute_sound": "Unmute System Sounds",
+    "subscribe_btn": "Subscribe"
+  },
+  "hero": {
+    "initializing": "OMARXGAMING IS INITIALIZING...",
+    "platform_badge": "Official Platform For Gamers",
+    "subscribe_now_btn": "Subscribe Now",
+    "watch_videos_btn": "Watch Videos"
+  },
+  "about": {
+    "section_title": "About The Channel 🌐",
+    "section_desc": "Get to know Omar, the passionate gaming content creator, his journey stats, and live stream schedule.",
+    "bio_title": "Passion, Gaming, and Sharing the Fun! 🎮",
+    "bio_text": "I started my content creation journey on YouTube driven by a love for games and sharing it with an awesome community. On my channel, I focus on delivering top-tier high-energy, professional, entertaining content, and the ultimate horror challenges.",
+    "counter_subscribers": "Subscribers",
+    "counter_views": "Total Views",
+    "counter_videos": "Videos Uploaded"
+  },
+  "schedule": {
+    "board_title": "Weekly Stream & Gaming Schedule"
+  },
+  "portfolio": {
+    "section_title": "My Portfolio & Projects 🚀",
+    "section_desc": "The most prominent games and smart systems I have developed using the latest technologies.",
+    "view_project": "Explore Project 🎮",
+    "tags": {
+      "game": "Game Dev",
+      "web": "Web App",
+      "system": "Integrated System"
+    },
+    "projects": {
+      "skyrush_desc": "A high-energy 3D cyberpunk parkour game built for ultimate speed and reflex tracking.",
+      "casio_desc": "An advanced operating system interface simulating a Casio calculator with 20+ functional features."
+    }
+  },
+  "videos": {
+    "section_title": "Latest Videos 🔥",
+    "section_desc": "Watch the latest challenges and premium game reviews on my channel. Click on any video to play it in the cinema view!",
+    "search_placeholder": "Search videos (challenge, review, horror...)",
+    "loading_text": "LOADING MISSIONS...",
+    "no_videos": "No videos match your search or are currently available.",
+    "spotlight_tag": "Featured Video of the Week",
+    "spotlight_default_desc": "Watch the most epic stream and funniest gaming adventure on the channel yet!",
+    "play_now_btn": "Play Now 🎮"
+  },
+  "gear": {
+    "section_title": "My Gaming Rig 🚀",
+    "section_desc": "The hardware and equipment I use for gaming, streaming, and editing videos at maximum performance."
+  },
+  "faqs": {
+    "section_title": "Frequently Asked Questions ❓",
+    "section_desc": "Quick answers to your top questions regarding gaming schedules, streams, and specifications."
+  },
+  "contact": {
+    "section_title": "Sponsorship or Inquiries? Contact Me! ✉️",
+    "section_desc": "If you are a company, advertiser, or looking for a partnership, please fill out the form and I will get back to you as soon as possible.",
+    "success_title": "Sent Successfully!",
+    "success_desc": "Thanks for reaching out, hero! Your message has been saved to Omar's inbox, and we'll reply to your email shortly!",
+    "label_name": "Full Name *",
+    "placeholder_name": "Enter your name here",
+    "label_email": "Email Address *",
+    "placeholder_email": "business@example.com",
+    "label_company": "Company or Platform (Optional)",
+    "placeholder_company": "e.g., Sony Gaming Company",
+    "label_message": "Offer Details / Message *",
+    "placeholder_message": "Write your project details or sponsorship ideas you want to propose here..."
+  }
+}
