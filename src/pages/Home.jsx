@@ -7,8 +7,9 @@ import {
 } from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from '../LanguageSwitcher'; // تأكد من صحة المسار حسب مكان الملف عندك
+import LanguageSwitcher from '../LanguageSwitcher';
 import PortfolioShowcase from '../PortfolioShowcase'
+import AdBanner from '../components/AdBanner'
 
 // مكون العداد المتحرك للأرقام
 const AnimatedCounter = ({ value, label, suffix = '' }) => {
@@ -430,21 +431,11 @@ function Home() {
       </header>
 
       {/* 🔴 ADSterra Banner 728x90 */}
-      <div style={{ display: 'flex', justifyContent: 'center', padding: '20px 0', background: 'rgba(12, 6, 29, 0.3)' }}>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              atOptions = {
-                  'key' : 'e7c57c310497834d8a981acebb67cc51',
-                  'format' : 'iframe',
-                  'height' : 90,
-                  'width' : 728,
-                  'params' : {}
-              };
-            `
-          }}
-        />
-        <script src="https://www.highperformanceformat.com/e7c57c310497834d8a981acebb67cc51/invoke.js"></script>
+      <AdBanner type="banner728x90" />
+
+      {/* 🔴 ADSterra Smartlink */}
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '16px 0', background: 'rgba(12, 6, 29, 0.2)' }}>
+        <AdBanner type="smartlink" />
       </div>
 
       {/* 🔴 شريط الشركات الراعية (Brand sponsors carousel) */}
@@ -463,6 +454,9 @@ function Home() {
           <div className="brand-logo-item" onMouseEnter={playHoverSound}>LOGITECH G</div>
         </div>
       </div>
+
+      {/* 🔴 ADSterra Banner #2 */}
+      <AdBanner type="banner728x90" />
 
       {/* 3. نبذة عني والإحصائيات (About & Stats & Stream Schedule) */}
       <section id="about" className="section-padding" style={{ background: 'rgba(12, 6, 29, 0.4)', borderTop: '1px solid rgba(255,255,255,0.05)', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
@@ -523,6 +517,10 @@ function Home() {
         </div>
       </section>
       <PortfolioShowcase/>
+
+      {/* 🔴 ADSterra Banner 728x90 #2 */}
+      <AdBanner type="banner728x90" />
+
       {/* 4. أحدث الفيديوهات (Latest Videos Grid with Search & Spotlight Video) */}
       <section id="videos" className="section-padding">
         <div className="container">
@@ -627,12 +625,6 @@ function Home() {
         </div>
       </section>
 
-      {/* 🔴 ADSterra Native Banner */}
-      <div style={{ display: 'flex', justifyContent: 'center', padding: '30px 0', background: 'rgba(12, 6, 29, 0.4)' }}>
-        <script async="async" data-cfasync="false" src="https://pl29680446.effectivecpmnetwork.com/1555554897eb45fa2d216082e8acd48b/invoke.js"></script>
-        <div id="container-1555554897eb45fa2d216082e8acd48b"></div>
-      </div>
-
       {/* 5. أدوات الجيمينج (My Gear - Fully Dynamic!) */}
       {gear && gear.length > 0 && (
         <section id="gear" className="section-padding" style={{ background: 'rgba(12, 6, 29, 0.4)', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
@@ -668,6 +660,9 @@ function Home() {
           </div>
         </section>
       )}
+
+      {/* 🔴 ADSterra Banner 728x90 #3 */}
+      <AdBanner type="banner728x90" />
 
       {/* 🔴 6. قسم الأسئلة الشائعة (FAQ Accordion) */}
       {faqs && faqs.length > 0 && (
